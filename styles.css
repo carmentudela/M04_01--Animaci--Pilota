@@ -1,0 +1,56 @@
+.container{
+    width: 1000px;
+    height: 700px;
+    margin: 10px;
+    border:5px solid black;
+}
+.pelota{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+     background-image: linear-gradient(rgb(159, 238, 84),rgb(44, 22, 9));
+     animation: movimiento 6s linear infinite alternate;
+}
+@keyframes movimiento{
+    15%{
+        transform: translate(100px, 610px);
+        width: 110px;
+        height: 90px;
+    }
+    16%, 41%, 56%, 71%, 81% {
+        width: 100px;
+        height: 100px;
+    } 
+        
+    40%{
+        transform: translate(300px, 0px);
+        width: 110px;
+        height: 90px;
+    }
+   
+     55%{
+        transform: translate(500px, 610px);
+        width: 110px;
+        height: 90px;   
+    } 
+    
+    
+    70%{ 
+        transform: translate(890px, 250px);
+        width: 110px;
+        height: 90; 
+    }
+    80%{
+        transform:translate(400px, 0px);
+        width: 110px;
+        height: 90; 
+    }
+    100%{
+        transform: translate(0px, 610px);
+        width: 110px;
+        height: 90; 
+    }
+    
+    }
+
+    
